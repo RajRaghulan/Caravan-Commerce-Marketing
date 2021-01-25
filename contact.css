@@ -1,0 +1,95 @@
+body {
+    margin-left: 0;
+    margin-right: 0;
+}
+#logo{
+    display: block;
+    width: 5rem;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    color: #6e6e6e;
+}
+.logo{
+    object-fit: cover;
+    margin-top: auto;
+    margin-bottom:auto;
+}
+header{
+    display: flex;
+    height: 6rem;
+    padding-left:1rem;
+    background: white;
+    padding-top: 0.25rem;
+}
+.texts{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    font-size: 0.6rem;
+    margin: auto 0 auto auto;
+}
+#about{
+    margin-left: 3rem;
+    margin-right: 4rem;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+#or {
+    text-align: center;
+}
+#gmail{
+    width: 5rem;
+    height: auto;
+}
+#info {
+    margin-left: 2rem;
+}
+input {
+    display: block;
+    margin-bottom: 1rem;
+}
+label {
+    font-family: 'Poppins', sans-serif;
+    color: #303030;
+}
+#msg {
+    width:20rem;
+    height:10rem;
+}
+#or {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+}
+#email_sec{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+#clown {
+    margin-right: 2em;
+    margin-top: 8rem;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+    }
+    70% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.95);
+    }
+}
+#gmail {
+    width: 20rem;
+    animation: pulse 2s infinite;
+
+}

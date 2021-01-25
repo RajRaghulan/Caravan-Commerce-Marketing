@@ -1,0 +1,41 @@
+body {
+    margin-left: 0;
+    margin-right: 0;
+}
+#logo{
+    display: block;
+    width: 5rem;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    color: #6e6e6e;
+}
+.logo{
+    object-fit: cover;
+    margin-top: auto;
+    margin-bottom:auto;
+}
+header{
+    display: flex;
+    height: 6rem;
+    padding-left:1rem;
+    background: white;
+    padding-top: 0.25rem;
+}
+.texts{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    font-size: 0.6rem;
+    margin: auto 0 auto auto;
+}
+#about{
+    margin-left: 3rem;
+    margin-right: 4rem;
+}
+h1{
+    color: grey;
+}
