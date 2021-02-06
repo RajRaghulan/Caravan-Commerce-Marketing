@@ -1,0 +1,435 @@
+/*The only thing I would say needs playing around with is the colors used. The scheme itself is pretty good(black and blue
+but i think the colors on the current version still might need some playing around with.
+Also if possible add some icons or something. I'll try to look into some animations, as well.
+ */
+
+body {
+    margin-top: 0;
+    margin-right: 0;
+}
+#logo{
+    display: block;
+    width: 5rem;
+}
+#logo2{
+    width: 10rem;
+    height:10rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo:hover{
+    color: #7bffe3;
+}
+
+/*I couldn't figure out why this image goes over the header when you scroll like that. If yall could figure out
+would be pretty sick*/
+@media (min-width:600px){
+    #arrow{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 8rem;
+        height: auto;
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+        animation: pulse 1.5s infinite;
+    }
+    @keyframes pulse {
+        0% {
+            transform: scale(0.95);
+        }
+        70% {
+            transform: scale(1);
+        }
+        100% {
+            transform: scale(0.95);
+        }
+    }
+}
+a{
+    color: #838383 ;
+    text-decoration: none;
+
+}
+a:hover{
+    text-shadow:3px 3px #7bffe3 ;
+
+}
+.headBorder{
+      background-image: linear-gradient(#95ffe8,white);
+    border:white;
+}
+.button5 {border-radius: 50%;}
+.logo{
+    size: 10%;
+    object-fit: cover;
+    margin-top: auto;
+    margin-bottom:auto;
+}
+.logo:hover{
+    color: #7bffe3;
+}
+header{
+    display: flex;
+    height: 6rem;
+    padding-left:1rem;
+    background: white;
+    padding-top: 0.25rem;
+    border-bottom: solid;
+}
+.texts{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    font-size: 0.6rem;
+    margin: auto 0 auto auto;
+}
+#about{
+    margin-left: 3rem;
+    margin-right: 4rem;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+   color: #14276d;
+    font-size: 2.5rem;
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 1.25rem;
+    color: black;
+}
+#BigHeader1{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size:7rem;
+    padding-top: 8.5rem;
+    margin-bottom:0;
+
+    background: linear-gradient(to left, #a1cdf3 20%, #7bffe3 40%, grey 60%, black 80%, #a1cdf3 100%);
+    background-size: 200% auto;
+    
+    color: #000;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    animation: shine 5s linear infinite;
+    
+}
+@keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+}
+.textUnderBigHeader{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 0;
+    padding-top:0;
+    letter-spacing: 0.05rem;
+
+}
+.first {
+    height: 100vh;
+}
+.points{
+    padding-bottom: 10rem;
+    margin-bottom: 0;
+}
+.group1{
+    text-align: center;
+    border-radius:95%;
+    display: flex;
+    margin-right: 60rem;
+    margin-bottom: 20rem;
+    background-color: #7bffe3
+}
+.group2{
+    text-align: center;
+    border-radius:95%;
+    display: flex;
+    margin-left: 60rem;
+    margin-bottom: 20rem;
+    background-color: #7bffe3
+}
+.group3{
+    text-align: center;
+    border-radius:95%;
+    display: flex;
+    margin-left: 30rem;
+    margin-right:30rem;
+    margin-bottom: 10rem;
+    background-color: #7bffe3
+}
+.text {
+    flex: 1 1 0px;
+}
+.icon {
+    margin-left: 2rem;
+    flex: 1 1 0px;
+}
+#BigHeader2{
+    text-align: center;
+    font-family: 'Athletas', sans-serif;
+    font-size:3rem;
+    padding-top: 4.5rem;
+    margin-bottom:0;
+    padding-bottom: 0;
+}
+button {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background: none;
+    border-style: solid;
+    border-color: black;
+    margin-top: 2rem;   
+}
+button:hover{
+    color: #7bffe3;
+}
+.contact{
+    font-size: 2em;
+    color:black;
+}
+.contact:hover{
+    color:#7bffe3;
+}
+#about {
+    font-size: 2em;
+}
+#about:hover{
+    color: #7bffe3;
+
+}
+#last{
+    margin-top:0;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+#footer {
+    background-image: linear-gradient(white, #7bffe3);
+    padding-top: 4em;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 4em;
+}
+#b {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom:2em;
+}
+
+.but:hover {
+    color: #7bffe3;
+}
+#bus {
+    font-family: 'Rubik', sans-serif;
+    font-size: inherit;
+    background: none;
+    border: none;
+    outline: none;
+}
+#cc {
+    width: 1rem;
+    height: 0.75rem;
+    padding-top: 0.1rem;
+    margin-right: 0.2em;
+}
+
+#faq {
+    font-family: 'Rubik', sans-serif;
+    background: none;
+    border: none;
+}
+#about2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: inherit;
+    background: none;
+    border: none;
+    outline: none;
+
+}
+
+
+#contact2    {
+    font-family: 'Poppins', sans-serif;
+    font-size: inherit;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.logos {
+    width: 1rem;
+    height: auto;
+    padding-top: 0px;
+    object-fit: cover;
+}
+.logos:hover {
+    color: #7bffe3;
+}
+
+.logos2 {
+    width: 1.05rem;
+    margin-right: 0.1em;
+}
+.logos2:hover {
+    color: #7bffe3;
+}
+
+#eat {
+    display: flex;
+    margin-left: 1em;
+}
+#group {
+    display: flex;
+}
+#he {
+    text-align: center;
+}
+#inline {
+    display: inline-block;
+    margin-left: auto;
+}
+#centerer {
+    text-align: center;
+}
+h6 {
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-top: 0.1em;
+}
+body {
+    margin-left: 0;
+    margin-right: 0;
+}
+#logo{
+    display: block;
+    width: 5rem;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+.logo{
+    object-fit: cover;
+    margin-top: auto;
+    margin-bottom:auto;
+}
+header{
+    display: flex;
+    height: 6rem;
+    padding-left:1rem;
+    background: white;
+    padding-top: 0.25rem;
+}
+.texts{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    font-size: 0.6rem;
+    margin: auto 0 auto auto;
+}
+#about{
+    margin-left: 3rem;
+    margin-right: 4rem;
+}
+h1{
+    color: #010202;
+}
+body {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.logo{
+    object-fit: cover;
+    margin-top: auto;
+    margin-bottom:auto;
+}
+header{
+    display: flex;
+    height: 6rem;
+    padding-left:1rem;
+    background: white;
+    padding-top: 0.25rem;
+}
+.texts{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    font-size: 0.6rem;
+    margin: auto 0 auto auto;
+}
+#about{
+    margin-left: 3rem;
+    margin-right: 4rem;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+#or {
+    text-align: center;
+}
+#gmail{
+    width: 5rem;
+    height: auto;
+}
+#info {
+    margin-left: 2rem;
+}
+input {
+    display: block;
+    margin-bottom: 1rem;
+}
+label {
+    font-family: 'Poppins', sans-serif;
+    color: #303030;
+}
+#msg {
+    width:20rem;
+    height:10rem;
+}
+#or {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+}
+#email_sec{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+#clown {
+    margin-right: 2em;
+    margin-top: 8rem;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+    }
+    70% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.95);
+    }
+}
+#gmail {
+    width: 20rem;
+    animation: pulse 2s infinite;
+
+}
